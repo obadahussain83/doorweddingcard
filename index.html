@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="color-scheme" content="only light">
+<title>دعوة زفاف أحمد &amp; سارة</title>
+<meta name="description" content="دعوة حفل زفاف أحمد وسارة — قاعة حياة، نابلس">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Aref+Ruqaa:wght@400;700&family=Aref+Ruqaa+Ink:wght@400;700&family=Scheherazade+New:wght@400;700&display=swap" rel="stylesheet">
+<link rel="preload" as="image" href="public/assets/birds/bird-1.png">
+<link rel="preload" as="image" href="public/assets/birds/dove.png">
+<link rel="preload" as="image" href="public/assets/birds/dove-wings-up.png">
+<link rel="preload" as="image" href="public/assets/birds/dove-wings-middle.png">
+<link rel="preload" as="image" href="public/assets/birds/dove-wings-down.png">
+<link rel="preload" as="image" href="public/assets/birds/bird-2.png">
+<link rel="preload" as="image" href="public/assets/birds/bird-3.png">
+<link rel="preload" as="image" href="public/assets/birds/bird-4.png">
+<link rel="preload" as="image" href="public/assets/birds/bird-5.png">
+<link rel="preload" as="image" href="public/assets/birds/bird-6.png">
+<link rel="stylesheet" href="style.css?v=20260802-15">
+</head>
+<body>
+
+<!-- ═══════════ الغلاف: الباب ═══════════ -->
+<header class="hero" id="hero">
+  <div class="hero-layer garden-bg"></div>
+
+  <div class="door-scene" id="doorScene">
+    <div class="arch" id="arch">
+      <div class="arch-garden"></div>
+      <div class="leaf leaf-left"></div>
+      <div class="leaf leaf-right"></div>
+    </div>
+    <div class="door-names">أحمد <span class="dn-amp">&amp;</span> سارة</div>
+    <div class="knock-ui" id="knockUi">
+      <div class="knock-text">دُقّ على الباب ثلاث دقّاتٍ ليُفتح</div>
+      <div class="knock-dots"><span></span><span></span><span></span></div>
+    </div>
+  </div>
+
+  <div class="hero-layer light-flash" id="lightFlash"></div>
+  <div class="hero-vignette"></div>
+
+  <div class="doves" id="doves"></div>
+  <div class="petals" id="petals"></div>
+
+  <div class="hero-content" id="heroContent">
+    <div class="hc groom-name" style="color:#fffaf0;-webkit-text-fill-color:#fffaf0;">أحمد</div>
+    <div class="hc amp" style="color:#fffaf0;-webkit-text-fill-color:#fffaf0;">♥</div>
+    <div class="hc bride-name" style="color:#fffaf0;-webkit-text-fill-color:#fffaf0;">سارة</div>
+    <div class="hc hero-date">يوم الجمعة، ٢٠ تشرين الثاني ٢٠٢٦</div>
+    <div class="hc hero-line">فتحنا بابَ فرحتنا.. وطارت البشائرُ بدعوتكم</div>
+    <div class="hc scroll-hint">
+      <span>مرِّر للأسفل</span>
+      <span class="arrow">↓</span>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <!-- ═══════════ الآية ═══════════ -->
+  <section class="sec sec-verse reveal">
+    <p class="basmala">بسم الله الرحمن الرحيم</p>
+    <div class="divider">✿</div>
+    <p class="verse">﴿ وَمِنْ آيَاتِهِ أَنْ خَلَقَ لَكُم مِّنْ أَنفُسِكُمْ أَزْوَاجًا لِّتَسْكُنُوا إِلَيْهَا وَجَعَلَ بَيْنَكُم مَّوَدَّةً وَرَحْمَةً ﴾</p>
+  </section>
+
+  <!-- ═══════════ بطاقة دعوة ═══════════ -->
+  <section class="sec reveal">
+    <h2 class="sec-title">بطاقة دعوة</h2>
+    <p class="invite-text">
+      بقلوبٍ مفعمةٍ بالفرح والسرور، نفتح لكم بابَ فرحتنا وندعوكم
+      لمشاركتنا أجمل لحظات حياتنا في حفل زفافنا. حضوركم شرفٌ لنا
+      وبهجةٌ تكتمل بها فرحتنا.
+    </p>
+    <div class="divider">❀</div>
+    <div class="parents">
+      <div class="parent">
+        <span class="parent-label">والد العريس</span>
+        <p>نجل السيّد خالد<br>والسيّدة منى</p>
+      </div>
+      <div class="parents-heart">❤️</div>
+      <div class="parent">
+        <span class="parent-label">والدا العروس</span>
+        <p>كريمة السيّد سامي<br>والسيّدة رنا</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════ العد التنازلي ═══════════ -->
+  <section class="sec reveal">
+    <h2 class="sec-title">باقي على فرحنا</h2>
+    <div class="countdown" id="countdown">
+      <div class="cd-box"><span class="cd-num" id="cdDays">٠</span><span class="cd-label">يوم</span></div>
+      <div class="cd-box"><span class="cd-num" id="cdHours">٠</span><span class="cd-label">ساعة</span></div>
+      <div class="cd-box"><span class="cd-num" id="cdMins">٠</span><span class="cd-label">دقيقة</span></div>
+      <div class="cd-box"><span class="cd-num" id="cdSecs">٠</span><span class="cd-label">ثانية</span></div>
+    </div>
+  </section>
+
+  <!-- ═══════════ برنامج الحفل ═══════════ -->
+  <section class="sec reveal">
+    <h2 class="sec-title">برنامج الحفل</h2>
+    <div class="timeline">
+      <div class="tl-item"><span class="tl-what">استقبال الضيوف</span><span class="tl-dot"></span><span class="tl-when">٧:٠٠ مساءً</span></div>
+      <div class="tl-item"><span class="tl-what">عقد القران</span><span class="tl-dot"></span><span class="tl-when">٧:٣٠ مساءً</span></div>
+      <div class="tl-item"><span class="tl-what">العشاء</span><span class="tl-dot"></span><span class="tl-when">٩:٠٠ مساءً</span></div>
+      <div class="tl-item"><span class="tl-what">السهرة</span><span class="tl-dot flower">✿</span><span class="tl-when">١٠:٠٠ مساءً</span></div>
+    </div>
+  </section>
+
+  <!-- ═══════════ مكان الحفل ═══════════ -->
+  <section class="sec reveal">
+    <h2 class="sec-title">مكان الحفل</h2>
+    <p class="venue-name">قاعة حياة</p>
+    <p class="venue-city">نابلس</p>
+    <a class="btn btn-purple" target="_blank" rel="noopener"
+       href="https://www.google.com/maps/search/?api=1&amp;query=%D9%82%D8%A7%D8%B9%D8%A9%20%D8%AD%D9%8A%D8%A7%D8%A9%20%D9%86%D8%A7%D8%A8%D9%84%D8%B3">
+       📍 الموقع على الخريطة
+    </a>
+  </section>
+
+  <!-- ═══════════ تنويهات ═══════════ -->
+  <section class="sec reveal">
+    <h2 class="sec-title">تنويهات</h2>
+    <div class="notice-card">
+      <div class="notice-bell">🔔</div>
+      <span class="notice-label">تنوية مهم</span>
+      <p class="notice-main">جنّة الأطفال منازلهم 👶🏻</p>
+    </div>
+    <ul class="notes">
+      <li>✿ يُرجى الحضور قبل الموعد بنصف ساعة</li>
+    </ul>
+    <div class="divider">✿</div>
+    <p class="families-line">حضوركم يفتح أبوابَ سعادتنا</p>
+    <p class="families-names">عائلة العريس &amp; عائلة العروس</p>
+    <p class="hashtag">#أحمد_وسارة</p>
+  </section>
+
+  <!-- ═══════════ احفظ الموعد ═══════════ -->
+  <section class="sec reveal">
+    <h2 class="sec-title">احفظ الموعد ✿</h2>
+    <div class="calendar-card">
+      <div class="cal-header">تشرين الثاني ٢٠٢٦</div>
+      <div class="cal-body">
+        <span class="cal-weekday">الجمعة</span>
+        <span class="cal-day">٢٠</span>
+        <span class="cal-time">الساعة السابعة مساءً</span>
+      </div>
+    </div>
+    <p class="cal-hint">📲 أضف الموعد إلى تقويم هاتفك بضغطة</p>
+    <div class="cal-btns">
+      <button class="btn btn-outline" id="btnIcs">تقويم آيفون</button>
+      <a class="btn btn-outline" target="_blank" rel="noopener"
+         href="https://calendar.google.com/calendar/render?action=TEMPLATE&amp;text=%D8%AD%D9%81%D9%84%20%D8%B2%D9%81%D8%A7%D9%81%20%D8%A3%D8%AD%D9%85%D8%AF%20%D9%88%20%D8%B3%D8%A7%D8%B1%D8%A9&amp;dates=20261120T170000Z/20261120T220000Z&amp;location=%D9%82%D8%A7%D8%B9%D8%A9%20%D8%AD%D9%8A%D8%A7%D8%A9%D8%8C%20%D9%86%D8%A7%D8%A8%D9%84%D8%B3">تقويم جوجل</a>
+    </div>
+  </section>
+
+  <!-- ═══════════ دعوة من القلب ═══════════ -->
+  <section class="sec reveal">
+    <h2 class="sec-title">دعوة من القلب</h2>
+    <div class="letter-page">
+      <p>بحضوركم تكتمل فرحتنا، وتزداد هذه الليلة نورًا وبهجة.</p>
+      <p>ننتظركم على المحبة، لنشارككم لحظةً نفتح بها باب عمرٍ جديد، وتبقى ذكراها دافئة في القلب.</p>
+      <div class="letter-sign">أهلاً وسهلاً بكم بين أهل الفرح</div>
+    </div>
+  </section>
+
+  <!-- ═══════════ الخاتمة ═══════════ -->
+  <section class="sec reveal final-page">
+    <div class="final-ornament">✿</div>
+    <h2 class="sec-title">خاتمة الفرح</h2>
+    <p class="final-text">شكرًا لأنكم جزء من حكايتنا الجميلة.</p>
+    <p class="final-text">نسأل الله أن يجمعنا وإياكم دائمًا على الخير والمودة والفرح.</p>
+    <p class="final-names">أحمد <span>♥</span> سارة</p>
+  </section>
+
+  <footer class="site-footer">
+    <p>أحمد <span class="f-heart">❤️</span> سارة</p>
+    <p class="f-small">الجمعة ٢٠ تشرين الثاني ٢٠٢٦ — قاعة حياة، نابلس</p>
+  </footer>
+
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
